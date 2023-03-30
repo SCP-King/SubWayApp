@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllstationsActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_margin="2dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20pt"
+        android:text="路线选择"
+        />
+
+    <Spinner
+        android:id="@+id/linename"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:entries="@array/lines"
+        android:dropDownSelector="@android:color/holo_blue_dark"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:textSize="15pt"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/holo_green_dark"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stationnames"
+        />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AlllinesActivity"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:inputType="text"
+        android:hint="输入站点名称查询"
+        android:id="@+id/stationname"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:textSize="15pt"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/holo_green_dark"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lines"
+        />
+</LinearLayout>

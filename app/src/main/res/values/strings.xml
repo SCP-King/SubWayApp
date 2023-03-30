@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SubWay</string>
+    <string-array name="lines">
+        <item>地铁1号线</item>
+        <item>地铁八通线</item>
+        <item>地铁2号线</item>
+        <item>地铁4号线</item>
+        <item>地铁大兴线</item>
+        <item>地铁5号线</item>
+        <item>地铁6号线</item>
+        <item>地铁7号线</item>
+        <item>地铁8号线</item>
+        <item>地铁9号线</item>
+        <item>地铁10号线</item>
+        <item>地铁13号线</item>
+        <item>地铁14号线</item>
+        <item>地铁15号线</item>
+        <item>地铁房山线</item>
+        <item>地铁昌平线</item>
+        <item>地铁亦庄线</item>
+        <item>机场线</item>
+    </string-array>
+</resources>
